@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="toast.css">
+</head>
+
+<body>
+	<input type="text" id="txtInput"  value="this is a test message" />
+	<br />
+    <input type="button" value="Test Info" onclick="ShowToastInfo(document.getElementById('txtInput').value);" />
+	<br />
+	<input type="button" value="Test Error" onclick="ShowToastError(document.getElementById('txtInput').value);" />
+	<br />
+	<input type="button" value="Test Warning" onclick="ShowToastWarn(document.getElementById('txtInput').value);" />
+	<br />
+	
+    <script src="toast.js"></script>
+	<div>
+</body>
+
+</html>
